@@ -1,10 +1,18 @@
-const button = document.querySelector("#menu_a");
-const nav = document.querySelector(".nav_section");
-function show(){
-    if(nav.style.display ==="flex"){
-        nav.style.display ="none";
-    } else {
-        nav.style.display = "flex";
-    }
+// 시작 첫 상단 시간 함수 불러와서 작성
+const clock = document.querySelector('#clock');
+const timehour = new Date();
+
+
+
+function currentTime(){
+    const timehour = new Date();
+
+    const hours = String(timehour.getHours()).padStart(2,"0");
+    const minutes = String(timehour.getMinutes()).padStart(2,"0");
+    clock.innerHTML = `${hours}:${minutes}`;
 }
-button.addEventListener('click',show);
+currentTime()
+setInterval(currentTime,1000);
+
+const DangIMG1 = document.querySelector('#dangIMG1');
+
