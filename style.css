@@ -38,13 +38,17 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px solid #FCD26B;
     border-radius: 20px;
 }
-h2{
+p span{
     margin: 0;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 900
 };
+p{
+    font-weight: 900;
+    font-size: 24px;
+}
 .container2{
     display: flex;
     align-items: center;
@@ -60,6 +64,7 @@ p{
 #dangIMG1{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
     width: 233px;
     height: 233px;
     border-radius: 150.5px;
@@ -72,44 +77,79 @@ p{
 /* 여기부터 로그인섹션 */
 
 .auto_login{
+    display: flex;
     font-size: 14px;
-    margin-left: 171px;
+    justify-content: end;
+
+}
+#check{
+    accent-color: #ADDB63;
 }
 .ID_sec{
     margin-top: 4px;
-    border: 5px solid #F95050;
-    border-radius: 20px;
-    width: 261px;
-    height: 51px;
+    border-radius: 8px;
+    background-color: #F1F1F1;
+    width: 335px;
+    height: 46px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items:center;
 
 }
 .PW_sec{
-    border: 5px solid #A3CF69;
-    border-radius: 20px;
-    width: 261px;
-    height: 51px;
+    border-radius: 8px;
+    background-color: #F1F1F1;
+    width: 335px;
+    height: 46px;
     margin-top: 16px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 #ID{
+    width: inherit;
+    height:inherit;
+    padding-left: 13px;
+    border-radius: inherit;
+    background-color: #F1F1F1;
+    text-decoration: #ADADAD;
     border-style: none;
+    font-size: 16px;
     margin-top: 3px;
 }
 #PW{
+    width: inherit;
+    height: inherit;
+    padding-left: 13px;
+    border-radius: inherit;
+    background-color: #F1F1F1;
+    text-decoration: #ADADAD;
+    font-size: 16px;
     border-style: none;
     margin-top: 3px;
+}
+.Login_btn{
+    width: 335px;
+    height: 53px;
+    border: none;
+    border-radius: 4px;
+    background-color: 
+    #ADDB63;
+    margin-top: 23px;
+
 }
 .nav_thing{
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
 }
-.find_info{
+.find_ID{
+    height: 19px;
+    border-style: none;
+    background: none;
+    cursor: pointer;
+}
+.find_PW{
     height: 19px;
     border-style: none;
     background: none;

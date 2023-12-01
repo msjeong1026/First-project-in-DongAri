@@ -1,0 +1,91 @@
+/* 초기설정 화면 레이아웃 디자인 */
+
+html{
+    background-color: lightgray;
+}
+body{
+    margin:0 auto;
+    width: 375px;
+    min-height: 100vh;
+    background-color: white;
+
+}
+header{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 19px;
+    font-weight: bold;
+}
+/* 여기까지..?? */
+#Head{
+    position: relative;
+    overflow-x: hidden;
+    
+    height: 420px;
+    background-image: url(Image/MainTop1.jpg);
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 44px;
+    margin-right: 16px;
+}
+h3{
+    position: relative;
+    font-family:sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+.slide_wrapper{
+    height: 163px;
+}
+.slides{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+li{
+    list-style-type: none;
+}
+.slides li img{
+    width: 163px;
+    height: 163px;
+    border-radius: 50%;
+    margin-top: 46px;
+    margin-right: 20px;
+    border: 1px solid #ADDB63;
+}
+#Middle{
+    height: 262px;
+
+}
+.category{
+    height: 235px;
+}
+.cate_ul{
+    display: flex;
+    flex-flow: row wrap;
+}
+.cate_ul li{
+    width: 25%;
+    height: 62px;
+    
+    margin-bottom: 30px;
+}
+.cate_ul li img{
+    width: 32px;
+    height: 62px;
+    cursor: pointer;
+}
+.AD_img img{
+    width: 343px;
+    height: 134px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
